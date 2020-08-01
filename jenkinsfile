@@ -4,7 +4,7 @@ node{
 		checkout scm
 	}
 	stage('Run behave python'){
-		bat '%WORKSPACE%\Scripts\behave --no-capture'
+		bat '%WORKSPACE%\\Scripts\\behave --no-capture'
 	}
 	
 }
